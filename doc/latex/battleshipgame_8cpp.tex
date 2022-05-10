@@ -1,0 +1,79 @@
+\hypertarget{battleshipgame_8cpp}{}\section{Project435\+L/battleshipgame.cpp File Reference}
+\label{battleshipgame_8cpp}\index{Project435\+L/battleshipgame.\+cpp@{Project435\+L/battleshipgame.\+cpp}}
+
+
+contains battleshipgame class definition  
+
+
+{\ttfamily \#include \char`\"{}battleshipgame.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}battleship.\+h\char`\"{}}\newline
+Include dependency graph for battleshipgame.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{battleshipgame_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{battleshipgame_8cpp_a2e0c451bdb326fc276979768c86734d4}{attempt} = 16
+\item 
+int \hyperlink{battleshipgame_8cpp_a94acbe75d9eccc82cdebd3d04aaa3d68}{correct} = 0
+\begin{DoxyCompactList}\small\item\em \begin{quote}
+number of attempts is max 16 \end{quote}
+\end{DoxyCompactList}\item 
+int \hyperlink{battleshipgame_8cpp_a6414696537de981aff1490d0c3b083b6}{wrong} = 0
+\begin{DoxyCompactList}\small\item\em \begin{quote}
+correct answers initialized to 0 \end{quote}
+\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+contains battleshipgame class definition 
+
+it is the battleship game with 2 4x4 grids the right 4x4 grid is the enemy, the left 4x4 grid is the player allows player to play a strategy and thinking game by answering questions provided if the player answers correctly, the playes shoots enemy ship if player answers incorrectly, the player misses the shot and the enemy hits back randomly if the player clicks on a box where an enemy ship is not present, it is a direct miss and attempts are lost every click the player fails if 4 questions are answered incorrectly the player wins if 7 out of 10 question are answered correctly if attempts = 0, the player wins if number of questions correct are more than the incorrect questions answered
+
+\begin{DoxyAuthor}{Author}
+Mohamad Abou Salem 
+
+Hadi Al Karhani 
+\end{DoxyAuthor}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{battleshipgame_8cpp_a2e0c451bdb326fc276979768c86734d4}\label{battleshipgame_8cpp_a2e0c451bdb326fc276979768c86734d4}} 
+\index{battleshipgame.\+cpp@{battleshipgame.\+cpp}!attempt@{attempt}}
+\index{attempt@{attempt}!battleshipgame.\+cpp@{battleshipgame.\+cpp}}
+\subsubsection{\texorpdfstring{attempt}{attempt}}
+{\footnotesize\ttfamily int attempt = 16}
+
+\mbox{\Hypertarget{battleshipgame_8cpp_a94acbe75d9eccc82cdebd3d04aaa3d68}\label{battleshipgame_8cpp_a94acbe75d9eccc82cdebd3d04aaa3d68}} 
+\index{battleshipgame.\+cpp@{battleshipgame.\+cpp}!correct@{correct}}
+\index{correct@{correct}!battleshipgame.\+cpp@{battleshipgame.\+cpp}}
+\subsubsection{\texorpdfstring{correct}{correct}}
+{\footnotesize\ttfamily int correct = 0}
+
+
+
+\begin{quote}
+number of attempts is max 16 \end{quote}
+
+
+\begin{quote}
+global variable number of attempts \end{quote}
+\mbox{\Hypertarget{battleshipgame_8cpp_a6414696537de981aff1490d0c3b083b6}\label{battleshipgame_8cpp_a6414696537de981aff1490d0c3b083b6}} 
+\index{battleshipgame.\+cpp@{battleshipgame.\+cpp}!wrong@{wrong}}
+\index{wrong@{wrong}!battleshipgame.\+cpp@{battleshipgame.\+cpp}}
+\subsubsection{\texorpdfstring{wrong}{wrong}}
+{\footnotesize\ttfamily int wrong = 0}
+
+
+
+\begin{quote}
+correct answers initialized to 0 \end{quote}
+
+
+\begin{quote}
+global variable number of correct answers \end{quote}

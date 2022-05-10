@@ -1,0 +1,143 @@
+\hypertarget{classreddisk}{}\section{reddisk Class Reference}
+\label{classreddisk}\index{reddisk@{reddisk}}
+
+
+{\ttfamily \#include $<$reddisk.\+h$>$}
+
+
+
+Inheritance diagram for reddisk\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{classreddisk__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for reddisk\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{classreddisk__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classreddisk_a3afadb2c0d7b5a586aeebb613bdae3dc}{spawn} ()
+\begin{DoxyCompactList}\small\item\em spawn disks and add them to the scene for them to fall from above and checks number of attempts \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classreddisk_a9d9d68326f53fb5e87af8465ca3081c4}{reddisk} (Q\+String \&username)
+\item 
+void \hyperlink{classreddisk_af1ec459fcb13a8b354b5a366d0ba2482}{key\+Press\+Event} (Q\+Key\+Event $\ast$event)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+String \hyperlink{classreddisk_a7bf6c0d696ac4e32cbe6d683c2af07b1}{uname}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classreddisk_a9d9d68326f53fb5e87af8465ca3081c4}\label{classreddisk_a9d9d68326f53fb5e87af8465ca3081c4}} 
+\index{reddisk@{reddisk}!reddisk@{reddisk}}
+\index{reddisk@{reddisk}!reddisk@{reddisk}}
+\subsubsection{\texorpdfstring{reddisk()}{reddisk()}}
+{\footnotesize\ttfamily reddisk\+::reddisk (\begin{DoxyParamCaption}\item[{Q\+String \&}]{username }\end{DoxyParamCaption})}
+
+\begin{quote}
+set scale \end{quote}
+
+
+\begin{quote}
+set position \end{quote}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classreddisk_af1ec459fcb13a8b354b5a366d0ba2482}\label{classreddisk_af1ec459fcb13a8b354b5a366d0ba2482}} 
+\index{reddisk@{reddisk}!key\+Press\+Event@{key\+Press\+Event}}
+\index{key\+Press\+Event@{key\+Press\+Event}!reddisk@{reddisk}}
+\subsubsection{\texorpdfstring{key\+Press\+Event()}{keyPressEvent()}}
+{\footnotesize\ttfamily void reddisk\+::key\+Press\+Event (\begin{DoxyParamCaption}\item[{Q\+Key\+Event $\ast$}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{classreddisk_af1ec459fcb13a8b354b5a366d0ba2482_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classreddisk_a3afadb2c0d7b5a586aeebb613bdae3dc}\label{classreddisk_a3afadb2c0d7b5a586aeebb613bdae3dc}} 
+\index{reddisk@{reddisk}!spawn@{spawn}}
+\index{spawn@{spawn}!reddisk@{reddisk}}
+\subsubsection{\texorpdfstring{spawn}{spawn}}
+{\footnotesize\ttfamily void reddisk\+::spawn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+spawn disks and add them to the scene for them to fall from above and checks number of attempts 
+
+checks for number of attempts if attempts reach zero the player wins or loses depending on the score the score is saved in Scores2.\+txt file
+
+spawns disk depending on timer used in \hyperlink{diskgame_8cpp}{diskgame.\+cpp} which is set to 1500 ms
+
+\begin{DoxyAuthor}{Author}
+Mohamad Abou Salem 
+
+Hadi Al Karhani 
+\end{DoxyAuthor}
+\begin{quote}
+when attempts reach zero it checks if the player wins or loses \end{quote}
+
+
+\begin{quote}
+if less than 150 points player loses and his/her score is saved in Scores2.\+txt \end{quote}
+
+
+\begin{quote}
+open text file to save score \end{quote}
+
+
+\begin{quote}
+if greater than 150 points player wins and his/her score is saved in Scores2.\+txt along with the bonus points \end{quote}
+
+
+\begin{quote}
+open text file to save score \end{quote}
+
+
+\begin{quote}
+spawns a new disk each timer which is set to 1.\+5 seconds \end{quote}
+
+
+\begin{quote}
+adds disk to the scene \end{quote}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{classreddisk_a3afadb2c0d7b5a586aeebb613bdae3dc_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classreddisk_a7bf6c0d696ac4e32cbe6d683c2af07b1}\label{classreddisk_a7bf6c0d696ac4e32cbe6d683c2af07b1}} 
+\index{reddisk@{reddisk}!uname@{uname}}
+\index{uname@{uname}!reddisk@{reddisk}}
+\subsubsection{\texorpdfstring{uname}{uname}}
+{\footnotesize\ttfamily Q\+String reddisk\+::uname\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project435\+L/\hyperlink{reddisk_8h}{reddisk.\+h}\item 
+Project435\+L/\hyperlink{reddisk_8cpp}{reddisk.\+cpp}\end{DoxyCompactItemize}

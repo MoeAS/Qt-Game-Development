@@ -1,0 +1,174 @@
+\hypertarget{classquestions}{}\section{questions Class Reference}
+\label{classquestions}\index{questions@{questions}}
+
+
+{\ttfamily \#include $<$questions.\+h$>$}
+
+
+
+Inheritance diagram for questions\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=139pt]{classquestions__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for questions\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=139pt]{classquestions__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classquestions_a6425653b765e9a7bf937907c32b15e4b}{submit} ()
+\begin{DoxyCompactList}\small\item\em Submits the input provided from the user and checks if answered correctly. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classquestions_a57897ef434896420d9c838d2049eb537}{sigemit} (int x)
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classquestions_ada6384e6cce19d918f03901087785108}{questions} (Q\+Widget $\ast$parent=nullptr)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Radio\+Button $\ast$ \hyperlink{classquestions_a2a829615b824809fb6b005514027b7e6}{True}
+\item 
+Q\+Radio\+Button $\ast$ \hyperlink{classquestions_a4e309b0da41c63855fe645abe177ed19}{False}
+\item 
+Q\+Grid\+Layout $\ast$ \hyperlink{classquestions_a44173dc43031eb173b3a11de30f3dfb5}{grid}
+\item 
+Q\+Label $\ast$ \hyperlink{classquestions_a06ed2d598a3074500ab9d9a854392aad}{ques}
+\item 
+Q\+Push\+Button $\ast$ \hyperlink{classquestions_a9b25e47526c1e19510903a49564f5124}{ok}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classquestions_ada6384e6cce19d918f03901087785108}\label{classquestions_ada6384e6cce19d918f03901087785108}} 
+\index{questions@{questions}!questions@{questions}}
+\index{questions@{questions}!questions@{questions}}
+\subsubsection{\texorpdfstring{questions()}{questions()}}
+{\footnotesize\ttfamily questions\+::questions (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+initalizing all Q\+Labels, Q\+Radio\+Buttons, and Q\+Push\+Buttons to display on the screen
+
+\begin{quote}
+move window to center of the screen \end{quote}
+
+
+\begin{quote}
+read questions from txt file \end{quote}
+
+
+\begin{quote}
+when submitted it checks if answered correctly or not \end{quote}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=317pt]{classquestions_ada6384e6cce19d918f03901087785108_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classquestions_a57897ef434896420d9c838d2049eb537}\label{classquestions_a57897ef434896420d9c838d2049eb537}} 
+\index{questions@{questions}!sigemit@{sigemit}}
+\index{sigemit@{sigemit}!questions@{questions}}
+\subsubsection{\texorpdfstring{sigemit}{sigemit}}
+{\footnotesize\ttfamily int questions\+::sigemit (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classquestions_a57897ef434896420d9c838d2049eb537_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classquestions_a6425653b765e9a7bf937907c32b15e4b}\label{classquestions_a6425653b765e9a7bf937907c32b15e4b}} 
+\index{questions@{questions}!submit@{submit}}
+\index{submit@{submit}!questions@{questions}}
+\subsubsection{\texorpdfstring{submit}{submit}}
+{\footnotesize\ttfamily int questions\+::submit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Submits the input provided from the user and checks if answered correctly. 
+
+its a function S\+L\+OT which is signaled by a press of a button when pressed the window closes and returns to the battleship game the questions are stored in txt file called Questions.\+txt
+
+\begin{DoxyAuthor}{Author}
+Mohamad Abou Salem 
+
+Hadi Al Karhani 
+\end{DoxyAuthor}
+\begin{quote}
+open text file \end{quote}
+
+
+\begin{quote}
+checks answer if user inputs True \end{quote}
+
+
+\begin{quote}
+checks answer if user inputs False \end{quote}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=317pt]{classquestions_a6425653b765e9a7bf937907c32b15e4b_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classquestions_a4e309b0da41c63855fe645abe177ed19}\label{classquestions_a4e309b0da41c63855fe645abe177ed19}} 
+\index{questions@{questions}!False@{False}}
+\index{False@{False}!questions@{questions}}
+\subsubsection{\texorpdfstring{False}{False}}
+{\footnotesize\ttfamily Q\+Radio\+Button$\ast$ questions\+::\+False\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classquestions_a44173dc43031eb173b3a11de30f3dfb5}\label{classquestions_a44173dc43031eb173b3a11de30f3dfb5}} 
+\index{questions@{questions}!grid@{grid}}
+\index{grid@{grid}!questions@{questions}}
+\subsubsection{\texorpdfstring{grid}{grid}}
+{\footnotesize\ttfamily Q\+Grid\+Layout$\ast$ questions\+::grid\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classquestions_a9b25e47526c1e19510903a49564f5124}\label{classquestions_a9b25e47526c1e19510903a49564f5124}} 
+\index{questions@{questions}!ok@{ok}}
+\index{ok@{ok}!questions@{questions}}
+\subsubsection{\texorpdfstring{ok}{ok}}
+{\footnotesize\ttfamily Q\+Push\+Button$\ast$ questions\+::ok\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classquestions_a06ed2d598a3074500ab9d9a854392aad}\label{classquestions_a06ed2d598a3074500ab9d9a854392aad}} 
+\index{questions@{questions}!ques@{ques}}
+\index{ques@{ques}!questions@{questions}}
+\subsubsection{\texorpdfstring{ques}{ques}}
+{\footnotesize\ttfamily Q\+Label$\ast$ questions\+::ques\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classquestions_a2a829615b824809fb6b005514027b7e6}\label{classquestions_a2a829615b824809fb6b005514027b7e6}} 
+\index{questions@{questions}!True@{True}}
+\index{True@{True}!questions@{questions}}
+\subsubsection{\texorpdfstring{True}{True}}
+{\footnotesize\ttfamily Q\+Radio\+Button$\ast$ questions\+::\+True\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project435\+L/\hyperlink{questions_8h}{questions.\+h}\item 
+Project435\+L/\hyperlink{questions_8cpp}{questions.\+cpp}\end{DoxyCompactItemize}

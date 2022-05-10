@@ -1,0 +1,4 @@
+<map id="battleshipgame::test4" name="battleshipgame::test4">
+<area shape="rect" id="node2" href="$classbattleshipgame.html#aa660fbca945531186f483aed25c3f5d7" title="battleshipgame::shoot4" alt="" coords="200,5,357,32"/>
+<area shape="rect" id="node3" href="$classbattleshipgame.html#a47d39ce6859afe84cceedd678b9252d7" title="incorrect answers initialized to 0 " alt="" coords="405,5,612,32"/>
+</map>

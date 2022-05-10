@@ -1,0 +1,11 @@
+<map id="Project435L/diskgame.h" name="Project435L/diskgame.h">
+<area shape="rect" id="node2" href="$bluedisk_8h.html" title="bluedisk class " alt="" coords="175,80,329,107"/>
+<area shape="rect" id="node4" href="$diskgame_8cpp.html" title="contains diskgame class definition " alt="" coords="197,155,373,181"/>
+<area shape="rect" id="node5" href="$disks_8cpp.html" title="contains disks class definition " alt="" coords="598,155,749,181"/>
+<area shape="rect" id="node6" href="$disk_8cpp.html" title="contains disk class definition " alt="" coords="815,80,959,107"/>
+<area shape="rect" id="node7" href="$reddisk_8h.html" title="reddisk class " alt="" coords="591,80,739,107"/>
+<area shape="rect" id="node9" href="$greendisk_8h.html" title="greendisk class " alt="" coords="404,80,567,107"/>
+<area shape="rect" id="node3" href="$bluedisk_8cpp.html" title="contains disk pad of blue disk class definition " alt="" coords="5,155,173,181"/>
+<area shape="rect" id="node8" href="$reddisk_8cpp.html" title="contains disk pad of red disk class definition " alt="" coords="773,155,936,181"/>
+<area shape="rect" id="node10" href="$greendisk_8cpp.html" title="contains disk pad of green disk class definition " alt="" coords="397,155,573,181"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="battleshipgame::shoot13" name="battleshipgame::shoot13">
+<area shape="rect" id="node2" href="$classbattleshipgame.html#a2b71aca6916fc24986574cc5282cc6b1" title="battleshipgame::test13" alt="" coords="217,5,372,32"/>
+<area shape="rect" id="node3" href="$classbattleshipgame.html#a498809fd1ed17350a8d7a459bbf734ae" title="player exits when game is done and scores are saved " alt="" coords="420,5,559,32"/>
+</map>

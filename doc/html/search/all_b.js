@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['name',['name',['../classprofile.html#aa4c9275bf2e98a297e390990023acffa',1,'profile']]],
+  ['nbtn',['nbtn',['../classbattleshipgame.html#a4fe785089034383ef32e123b1d610c9a',1,'battleshipgame']]],
+  ['nbtn1',['nbtn1',['../classbattleshipgame.html#a2e5c5e3c321e727123ef1fcbbd0a844e',1,'battleshipgame']]],
+  ['nbtn10',['nbtn10',['../classbattleshipgame.html#a93a5b6d3dacc8b527a12a0cd831a63cc',1,'battleshipgame']]],
+  ['nbtn11',['nbtn11',['../classbattleshipgame.html#a3ec68ea66baca163feb4e234d1db0148',1,'battleshipgame']]],
+  ['nbtn12',['nbtn12',['../classbattleshipgame.html#ad5eba575783a6be5174f4bfa54ecc90d',1,'battleshipgame']]],
+  ['nbtn13',['nbtn13',['../classbattleshipgame.html#a4a663ea0a0c4c8abfdcb706a00f1a1e6',1,'battleshipgame']]],
+  ['nbtn14',['nbtn14',['../classbattleshipgame.html#a9f66db04b6686409650f804299088df0',1,'battleshipgame']]],
+  ['nbtn15',['nbtn15',['../classbattleshipgame.html#a36f0e1987c825baf3eb5bba127d4ad62',1,'battleshipgame']]],
+  ['nbtn2',['nbtn2',['../classbattleshipgame.html#ae1cba72b70f6c90d1aa6a92790e3866e',1,'battleshipgame']]],
+  ['nbtn3',['nbtn3',['../classbattleshipgame.html#ae43d174d00e9f9be7339d36bb731098d',1,'battleshipgame']]],
+  ['nbtn4',['nbtn4',['../classbattleshipgame.html#a999e59408f4a693eae797578d425ebe9',1,'battleshipgame']]],
+  ['nbtn5',['nbtn5',['../classbattleshipgame.html#ae64f5a6a90c8aa1c63a4d29056988f82',1,'battleshipgame']]],
+  ['nbtn6',['nbtn6',['../classbattleshipgame.html#a85fa88b36334f203003b3b435971d028',1,'battleshipgame']]],
+  ['nbtn7',['nbtn7',['../classbattleshipgame.html#a8ea2750b47be5c760cd70e272bc3dbd4',1,'battleshipgame']]],
+  ['nbtn8',['nbtn8',['../classbattleshipgame.html#ae95e70dbe7f545b7a423c96abfc57c69',1,'battleshipgame']]],
+  ['nbtn9',['nbtn9',['../classbattleshipgame.html#a4ec1a99e13fc3329da77de9f662a5ebb',1,'battleshipgame']]]
+];

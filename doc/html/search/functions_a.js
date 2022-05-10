@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['shoot',['shoot',['../classbattleshipgame.html#aa5a079217b1de092692515bc8fda0443',1,'battleshipgame']]],
+  ['shoot10',['shoot10',['../classbattleshipgame.html#a573cf39fd3700ffd3a79587437d66d37',1,'battleshipgame']]],
+  ['shoot11',['shoot11',['../classbattleshipgame.html#abe53aab52ef793e5ca534fa53768ca49',1,'battleshipgame']]],
+  ['shoot12',['shoot12',['../classbattleshipgame.html#a297eea8922b7e2b678d31396da8ba96e',1,'battleshipgame']]],
+  ['shoot13',['shoot13',['../classbattleshipgame.html#a51fcb1716e0ad6cebc777c14a76c9f50',1,'battleshipgame']]],
+  ['shoot14',['shoot14',['../classbattleshipgame.html#a2e1f24999099b5c301253a244d46c663',1,'battleshipgame']]],
+  ['shoot15',['shoot15',['../classbattleshipgame.html#a3b024b5ad7c747303c00b740f0921751',1,'battleshipgame']]],
+  ['shoot16',['shoot16',['../classbattleshipgame.html#a1dddc9c9d3ced3792fc33ec510976e8f',1,'battleshipgame']]],
+  ['shoot2',['shoot2',['../classbattleshipgame.html#ab43d1b9348297ee4260ee31963efd49c',1,'battleshipgame']]],
+  ['shoot3',['shoot3',['../classbattleshipgame.html#afce5fc9dedff42dd1fb8e43bd6dde974',1,'battleshipgame']]],
+  ['shoot4',['shoot4',['../classbattleshipgame.html#aa660fbca945531186f483aed25c3f5d7',1,'battleshipgame']]],
+  ['shoot5',['shoot5',['../classbattleshipgame.html#a31f1aecdbcbff314bb1c36fd0af2691a',1,'battleshipgame']]],
+  ['shoot6',['shoot6',['../classbattleshipgame.html#a1af239789255b2d3c6b33789ccffae35',1,'battleshipgame']]],
+  ['shoot7',['shoot7',['../classbattleshipgame.html#a56ca4e048cb8e5d66719ceca1b556d76',1,'battleshipgame']]],
+  ['shoot8',['shoot8',['../classbattleshipgame.html#a54920293bf8c78680cab53c79958e609',1,'battleshipgame']]],
+  ['shoot9',['shoot9',['../classbattleshipgame.html#adf78a189286f1bce1f6c291b4b7c72b4',1,'battleshipgame']]],
+  ['sigemit',['sigemit',['../classquestions.html#a57897ef434896420d9c838d2049eb537',1,'questions']]],
+  ['signin',['Signin',['../classSignin.html#a6c85b8b53a33ea42f467d7c09cf45388',1,'Signin']]],
+  ['signinvalidation',['signinvalidation',['../classSignin.html#a0a6afd65a4526eec5cbc68e84ba35852',1,'Signin']]],
+  ['signup',['SignUp',['../classSignUp.html#af6aa4663ced596037c4126462d2788cb',1,'SignUp']]],
+  ['signuppage',['signuppage',['../classSignin.html#af4276b4dc2cbbdba1f88746ad6d97dbd',1,'Signin']]],
+  ['spawn',['spawn',['../classreddisk.html#a3afadb2c0d7b5a586aeebb613bdae3dc',1,'reddisk']]],
+  ['startgame',['startgame',['../classBattleship.html#abd2c4b47572e707f91e5fef6790a48a5',1,'Battleship::startgame()'],['../classdisk.html#a5b39c1a38b5a5c337c6b60470b9ef748',1,'disk::startgame()']]],
+  ['submit',['submit',['../classquestions.html#a6425653b765e9a7bf937907c32b15e4b',1,'questions']]],
+  ['submitreg',['submitreg',['../classSignUp.html#aad0f6a54d93f8354e13db101189e2319',1,'SignUp']]]
+];

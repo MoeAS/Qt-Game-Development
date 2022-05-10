@@ -1,0 +1,182 @@
+\hypertarget{classBattleship}{}\section{Battleship Class Reference}
+\label{classBattleship}\index{Battleship@{Battleship}}
+
+
+{\ttfamily \#include $<$battleship.\+h$>$}
+
+
+
+Inheritance diagram for Battleship\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=140pt]{classBattleship__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Battleship\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=140pt]{classBattleship__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classBattleship_a37515bbb9fe274e559315cb177fe13e5}{back} ()
+\begin{DoxyCompactList}\small\item\em go back to the user profile page \end{DoxyCompactList}\item 
+void \hyperlink{classBattleship_abd2c4b47572e707f91e5fef6790a48a5}{startgame} ()
+\begin{DoxyCompactList}\small\item\em enters game1 and starts playing \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classBattleship_afe1dd441643011f48c6e89c2c761f556}{Battleship} (Q\+String \&username, Q\+Widget $\ast$parent=nullptr)
+\item 
+void \hyperlink{classBattleship_a708a8b74e16ed2febd644e718445457a}{key\+Press\+Event} (Q\+Key\+Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em \begin{quote}
+pres F1 to start the game \end{quote}
+\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Push\+Button $\ast$ \hyperlink{classBattleship_adac0fc24ec4d4edfc6aaad21b6ec314f}{start}
+\item 
+Q\+Push\+Button $\ast$ \hyperlink{classBattleship_a4480babf26efe4e44c6255b17021611f}{goback}
+\item 
+Q\+String \hyperlink{classBattleship_aef5c3590a84c0d99e00d67796ef578bb}{uname}
+\item 
+Q\+Grid\+Layout $\ast$ \hyperlink{classBattleship_a6c80b36f528440c9144085742fb218b6}{grid1}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classBattleship_afe1dd441643011f48c6e89c2c761f556}\label{classBattleship_afe1dd441643011f48c6e89c2c761f556}} 
+\index{Battleship@{Battleship}!Battleship@{Battleship}}
+\index{Battleship@{Battleship}!Battleship@{Battleship}}
+\subsubsection{\texorpdfstring{Battleship()}{Battleship()}}
+{\footnotesize\ttfamily Battleship\+::\+Battleship (\begin{DoxyParamCaption}\item[{Q\+String \&}]{username,  }\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+\begin{quote}
+go back to profile page \end{quote}
+
+
+\begin{quote}
+start playing the game \end{quote}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{classBattleship_afe1dd441643011f48c6e89c2c761f556_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classBattleship_a37515bbb9fe274e559315cb177fe13e5}\label{classBattleship_a37515bbb9fe274e559315cb177fe13e5}} 
+\index{Battleship@{Battleship}!back@{back}}
+\index{back@{back}!Battleship@{Battleship}}
+\subsubsection{\texorpdfstring{back}{back}}
+{\footnotesize\ttfamily void Battleship\+::back (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+go back to the user profile page 
+
+its a function S\+L\+OT which is signaled by a press of a button when pressed the user profile page is opened and the game menu is closed
+
+\begin{DoxyAuthor}{Author}
+Mohamad Abou Salem 
+
+Hadi Al Karhani 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{classBattleship_a37515bbb9fe274e559315cb177fe13e5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBattleship_a708a8b74e16ed2febd644e718445457a}\label{classBattleship_a708a8b74e16ed2febd644e718445457a}} 
+\index{Battleship@{Battleship}!key\+Press\+Event@{key\+Press\+Event}}
+\index{key\+Press\+Event@{key\+Press\+Event}!Battleship@{Battleship}}
+\subsubsection{\texorpdfstring{key\+Press\+Event()}{keyPressEvent()}}
+{\footnotesize\ttfamily void Battleship\+::key\+Press\+Event (\begin{DoxyParamCaption}\item[{Q\+Key\+Event $\ast$}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\begin{quote}
+pres F1 to start the game \end{quote}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBattleship_a708a8b74e16ed2febd644e718445457a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBattleship_abd2c4b47572e707f91e5fef6790a48a5}\label{classBattleship_abd2c4b47572e707f91e5fef6790a48a5}} 
+\index{Battleship@{Battleship}!startgame@{startgame}}
+\index{startgame@{startgame}!Battleship@{Battleship}}
+\subsubsection{\texorpdfstring{startgame}{startgame}}
+{\footnotesize\ttfamily void Battleship\+::startgame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+enters game1 and starts playing 
+
+its a function S\+L\+OT which is signaled by a press of a button when pressed the game menu page is closed and battleship game page is opened
+
+\begin{DoxyAuthor}{Author}
+Mohamad Abou Salem 
+
+Hadi Al Karhani 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBattleship_abd2c4b47572e707f91e5fef6790a48a5_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classBattleship_a4480babf26efe4e44c6255b17021611f}\label{classBattleship_a4480babf26efe4e44c6255b17021611f}} 
+\index{Battleship@{Battleship}!goback@{goback}}
+\index{goback@{goback}!Battleship@{Battleship}}
+\subsubsection{\texorpdfstring{goback}{goback}}
+{\footnotesize\ttfamily Q\+Push\+Button$\ast$ Battleship\+::goback\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classBattleship_a6c80b36f528440c9144085742fb218b6}\label{classBattleship_a6c80b36f528440c9144085742fb218b6}} 
+\index{Battleship@{Battleship}!grid1@{grid1}}
+\index{grid1@{grid1}!Battleship@{Battleship}}
+\subsubsection{\texorpdfstring{grid1}{grid1}}
+{\footnotesize\ttfamily Q\+Grid\+Layout$\ast$ Battleship\+::grid1\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classBattleship_adac0fc24ec4d4edfc6aaad21b6ec314f}\label{classBattleship_adac0fc24ec4d4edfc6aaad21b6ec314f}} 
+\index{Battleship@{Battleship}!start@{start}}
+\index{start@{start}!Battleship@{Battleship}}
+\subsubsection{\texorpdfstring{start}{start}}
+{\footnotesize\ttfamily Q\+Push\+Button$\ast$ Battleship\+::start\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classBattleship_aef5c3590a84c0d99e00d67796ef578bb}\label{classBattleship_aef5c3590a84c0d99e00d67796ef578bb}} 
+\index{Battleship@{Battleship}!uname@{uname}}
+\index{uname@{uname}!Battleship@{Battleship}}
+\subsubsection{\texorpdfstring{uname}{uname}}
+{\footnotesize\ttfamily Q\+String Battleship\+::uname\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project435\+L/\hyperlink{battleship_8h}{battleship.\+h}\item 
+Project435\+L/\hyperlink{battleship_8cpp}{battleship.\+cpp}\end{DoxyCompactItemize}

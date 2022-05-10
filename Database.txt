@@ -1,0 +1,7 @@
+Fullname|Username|Password|Gender|PhoneNumber|DateofBirth|ProfilePicture
+
+
+
+Mohamad Abou Salem|moe|7aMoudi72571|Male|+961-76940007|01-01-2000|:/profile.png
+Moha ndsfkhj|moez|7aMoudi72571|Female|+961-76960008|01-01-2000|/home/eece435l/Lab2/Images/garbage.png
+gfdsgsdf gdfsgdfgh|moee|7aMoudi72571|Female|+961-76980004|01-01-2000|:/profile.png

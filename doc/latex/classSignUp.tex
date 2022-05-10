@@ -1,0 +1,447 @@
+\hypertarget{classSignUp}{}\section{Sign\+Up Class Reference}
+\label{classSignUp}\index{Sign\+Up@{Sign\+Up}}
+
+
+{\ttfamily \#include $<$signup.\+h$>$}
+
+
+
+Inheritance diagram for Sign\+Up\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=135pt]{classSignUp__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Sign\+Up\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=135pt]{classSignUp__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classSignUp_af6aa4663ced596037c4126462d2788cb}{Sign\+Up} (Q\+Widget $\ast$parent=nullptr)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Label $\ast$ \hyperlink{classSignUp_ae2ae2c63da54ca0eaf94b251adecbdfe}{firstname}
+\item 
+Q\+Line\+Edit $\ast$ \hyperlink{classSignUp_a7ea82200786963e881c8b115c04175a0}{firstnametxt}
+\item 
+Q\+Label $\ast$ \hyperlink{classSignUp_aa01177e983a86a9be7a1f3894e418960}{lastname}
+\item 
+Q\+Line\+Edit $\ast$ \hyperlink{classSignUp_a877d4c47b00e04a9cfb0092f45c0cd97}{lastnametxt}
+\item 
+Q\+Label $\ast$ \hyperlink{classSignUp_a00167b330798998c3d6575de385ad652}{username}
+\item 
+Q\+Line\+Edit $\ast$ \hyperlink{classSignUp_aeb3e4f68bd046de6788617cd8326a69c}{usernametxt}
+\item 
+Q\+Label $\ast$ \hyperlink{classSignUp_adf28599804795a4c204e83e60595a6bc}{password}
+\item 
+Q\+Line\+Edit $\ast$ \hyperlink{classSignUp_a0435d9f76f9d517e7fc25788ee2cd7d7}{passwordtxt}
+\item 
+Q\+Label $\ast$ \hyperlink{classSignUp_a6ab9ba662b07fce1947942ebca3eeeed}{gender}
+\item 
+Q\+Radio\+Button $\ast$ \hyperlink{classSignUp_a70170aac5db032656bca3001f711ea9f}{male}
+\item 
+Q\+Radio\+Button $\ast$ \hyperlink{classSignUp_abb945e5760616123b5c548c7103d4e0f}{female}
+\item 
+Q\+Label $\ast$ \hyperlink{classSignUp_abd3feea6888e1fd608e3e0ac22604bd7}{dob}
+\item 
+Q\+Date\+Time\+Edit $\ast$ \hyperlink{classSignUp_aba7f06ac421cc229f10f8e485a82a61b}{dobtxt}
+\item 
+Q\+Label $\ast$ \hyperlink{classSignUp_a765e63e4a135b5063f753d0a3e928a18}{profilepicture}
+\item 
+Q\+Push\+Button $\ast$ \hyperlink{classSignUp_a4bcba614d25f1498bf75367ccf566bfa}{profilepicturebr}
+\item 
+Q\+Group\+Box $\ast$ \hyperlink{classSignUp_a4cbbcbee8c5a0a3176de6d67efb02511}{group}
+\item 
+Q\+Label $\ast$ \hyperlink{classSignUp_ad9798c6c90208bacac4a99355bf7cbf3}{phonenumber}
+\item 
+Q\+Line\+Edit $\ast$ \hyperlink{classSignUp_a6deaa5313982b37d4f4ce4d0e7636b2e}{phonenumbertxt}
+\item 
+Q\+Push\+Button $\ast$ \hyperlink{classSignUp_aa733427c622c970bb273768fe266cda6}{submit}
+\item 
+Q\+String \hyperlink{classSignUp_af94f0e768fbc875b92de3db057ac8a58}{s1}
+\item 
+Q\+Push\+Button $\ast$ \hyperlink{classSignUp_a3118da992e3ddddad55aefb058d3f181}{back}
+\item 
+Q\+Grid\+Layout $\ast$ \hyperlink{classSignUp_a49c9d24e80103ea51677a94ba7100fa1}{grid1}
+\item 
+Q\+V\+Box\+Layout $\ast$ \hyperlink{classSignUp_ab2c944409ffb7239cc660d27cb5427fb}{box}
+\item 
+Q\+Check\+Box $\ast$ \hyperlink{classSignUp_ac466869c89fe53445de505714c341837}{showpass}
+\item 
+Q\+Line\+Edit $\ast$ \hyperlink{classSignUp_a6da38bd0aaebade4679524fcda54b840}{fullname}
+\item 
+Q\+Combo\+Box $\ast$ \hyperlink{classSignUp_af7122b0a061a921f749e077532136a21}{countrycode}
+\end{DoxyCompactItemize}
+\subsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classSignUp_a1539bfb27c3778d424ebeb4c50210e3d}{goback} ()
+\begin{DoxyCompactList}\small\item\em goes back to the sign in page which is the main page \end{DoxyCompactList}\item 
+void \hyperlink{classSignUp_aad0f6a54d93f8354e13db101189e2319}{submitreg} ()
+\begin{DoxyCompactList}\small\item\em Submits the data provided from the user to sign up and checks if username is taken or not. \end{DoxyCompactList}\item 
+void \hyperlink{classSignUp_ab35d78276292f7e585b78cb98a5c720a}{browse} ()
+\begin{DoxyCompactList}\small\item\em browses the computer to insert a profile picture \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSignUp_af6aa4663ced596037c4126462d2788cb}\label{classSignUp_af6aa4663ced596037c4126462d2788cb}} 
+\index{Sign\+Up@{Sign\+Up}!Sign\+Up@{Sign\+Up}}
+\index{Sign\+Up@{Sign\+Up}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{Sign\+Up()}{SignUp()}}
+{\footnotesize\ttfamily Sign\+Up\+::\+Sign\+Up (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+\begin{quote}
+change the sign up background and text color \end{quote}
+
+
+\begin{quote}
+scales window to 400x300 \end{quote}
+
+
+\begin{quote}
+moves window to the center of the screen when opened \end{quote}
+
+
+initalizing all Q\+Labels, Q\+Line\+Edits, Q\+Radio\+Buttons, and Q\+Push\+Buttons to display on the screen
+
+\begin{quote}
+navigate back to the sign in page which is the main page of this program \end{quote}
+
+
+\begin{quote}
+user submits the provided data \end{quote}
+
+
+\begin{quote}
+browse the computer to insert a picture \end{quote}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=301pt]{classSignUp_af6aa4663ced596037c4126462d2788cb_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classSignUp_ab35d78276292f7e585b78cb98a5c720a}\label{classSignUp_ab35d78276292f7e585b78cb98a5c720a}} 
+\index{Sign\+Up@{Sign\+Up}!browse@{browse}}
+\index{browse@{browse}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{browse}{browse}}
+{\footnotesize\ttfamily void Sign\+Up\+::browse (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+browses the computer to insert a profile picture 
+
+its a function S\+L\+OT which is signaled by a press of a button when pressed the user is prompted a file explorer window to navigate to the desired picture of choice if none are given, a default profile picture is set
+
+\begin{DoxyAuthor}{Author}
+Mohamad Abou Salem 
+
+Hadi Al Karhani 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=289pt]{classSignUp_ab35d78276292f7e585b78cb98a5c720a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSignUp_a1539bfb27c3778d424ebeb4c50210e3d}\label{classSignUp_a1539bfb27c3778d424ebeb4c50210e3d}} 
+\index{Sign\+Up@{Sign\+Up}!goback@{goback}}
+\index{goback@{goback}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{goback}{goback}}
+{\footnotesize\ttfamily void Sign\+Up\+::goback (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+goes back to the sign in page which is the main page 
+
+its a function S\+L\+OT which is signaled by a press of a button when pressed the sign up page is closed and a sign in page is opened
+
+\begin{DoxyAuthor}{Author}
+Mohamad Abou Salem 
+
+Hadi Al Karhani 
+\end{DoxyAuthor}
+\begin{quote}
+show instance of the sign in page \end{quote}
+
+
+\begin{quote}
+close this instance of sign up page \end{quote}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=289pt]{classSignUp_a1539bfb27c3778d424ebeb4c50210e3d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSignUp_aad0f6a54d93f8354e13db101189e2319}\label{classSignUp_aad0f6a54d93f8354e13db101189e2319}} 
+\index{Sign\+Up@{Sign\+Up}!submitreg@{submitreg}}
+\index{submitreg@{submitreg}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{submitreg}{submitreg}}
+{\footnotesize\ttfamily void Sign\+Up\+::submitreg (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Submits the data provided from the user to sign up and checks if username is taken or not. 
+
+its a function S\+L\+OT which is signaled by a press of a button when pressed the sign up page is closed and a sign in page is opened the data is stored in txt file called Database.\+txt it checks whether the username is taken since the username is a unique key it checks if all of the fields are filled, and for valid phone number and password of at least 8 characters and contains at least one number, upper, and lower case letters
+
+\begin{DoxyAuthor}{Author}
+Mohamad Abou Salem 
+
+Hadi Al Karhani 
+\end{DoxyAuthor}
+\begin{quote}
+check if firstname field is empty \end{quote}
+
+
+\begin{quote}
+check if lastname field is empty \end{quote}
+
+
+\begin{quote}
+check if username field is empty \end{quote}
+
+
+\begin{quote}
+check if password field is empty \end{quote}
+
+
+\begin{quote}
+check if phonenumber field is empty \end{quote}
+
+
+\begin{quote}
+check if phonenumber field is valid for country specified, here it is Lebanon \end{quote}
+
+
+\begin{quote}
+check if phonenumber field is valid for country specified, here it is U\+SA \end{quote}
+
+
+\begin{quote}
+check if phonenumber field is valid for country specified, here it is Saudi Arabia \end{quote}
+
+
+\begin{quote}
+check if phonenumber field is valid for country specified, here it is Belgium \end{quote}
+
+
+\begin{quote}
+check if phonenumber field is valid for country specified, here it is France \end{quote}
+
+
+\begin{quote}
+check if date of birth field is empty \end{quote}
+
+
+\begin{quote}
+check if password requirements are met \end{quote}
+
+
+\begin{quote}
+text file is open to save the data input \end{quote}
+
+
+\begin{quote}
+check if username already taken \end{quote}
+
+
+\begin{quote}
+if username take prompt user with message \end{quote}
+
+
+\begin{quote}
+if not taken then save all the data in the text file \end{quote}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=301pt]{classSignUp_aad0f6a54d93f8354e13db101189e2319_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classSignUp_a3118da992e3ddddad55aefb058d3f181}\label{classSignUp_a3118da992e3ddddad55aefb058d3f181}} 
+\index{Sign\+Up@{Sign\+Up}!back@{back}}
+\index{back@{back}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{back}{back}}
+{\footnotesize\ttfamily Q\+Push\+Button$\ast$ Sign\+Up\+::back}
+
+\mbox{\Hypertarget{classSignUp_ab2c944409ffb7239cc660d27cb5427fb}\label{classSignUp_ab2c944409ffb7239cc660d27cb5427fb}} 
+\index{Sign\+Up@{Sign\+Up}!box@{box}}
+\index{box@{box}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{box}{box}}
+{\footnotesize\ttfamily Q\+V\+Box\+Layout$\ast$ Sign\+Up\+::box}
+
+\mbox{\Hypertarget{classSignUp_af7122b0a061a921f749e077532136a21}\label{classSignUp_af7122b0a061a921f749e077532136a21}} 
+\index{Sign\+Up@{Sign\+Up}!countrycode@{countrycode}}
+\index{countrycode@{countrycode}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{countrycode}{countrycode}}
+{\footnotesize\ttfamily Q\+Combo\+Box$\ast$ Sign\+Up\+::countrycode}
+
+\mbox{\Hypertarget{classSignUp_abd3feea6888e1fd608e3e0ac22604bd7}\label{classSignUp_abd3feea6888e1fd608e3e0ac22604bd7}} 
+\index{Sign\+Up@{Sign\+Up}!dob@{dob}}
+\index{dob@{dob}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{dob}{dob}}
+{\footnotesize\ttfamily Q\+Label$\ast$ Sign\+Up\+::dob}
+
+\mbox{\Hypertarget{classSignUp_aba7f06ac421cc229f10f8e485a82a61b}\label{classSignUp_aba7f06ac421cc229f10f8e485a82a61b}} 
+\index{Sign\+Up@{Sign\+Up}!dobtxt@{dobtxt}}
+\index{dobtxt@{dobtxt}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{dobtxt}{dobtxt}}
+{\footnotesize\ttfamily Q\+Date\+Time\+Edit$\ast$ Sign\+Up\+::dobtxt}
+
+\mbox{\Hypertarget{classSignUp_abb945e5760616123b5c548c7103d4e0f}\label{classSignUp_abb945e5760616123b5c548c7103d4e0f}} 
+\index{Sign\+Up@{Sign\+Up}!female@{female}}
+\index{female@{female}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{female}{female}}
+{\footnotesize\ttfamily Q\+Radio\+Button$\ast$ Sign\+Up\+::female}
+
+\mbox{\Hypertarget{classSignUp_ae2ae2c63da54ca0eaf94b251adecbdfe}\label{classSignUp_ae2ae2c63da54ca0eaf94b251adecbdfe}} 
+\index{Sign\+Up@{Sign\+Up}!firstname@{firstname}}
+\index{firstname@{firstname}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{firstname}{firstname}}
+{\footnotesize\ttfamily Q\+Label$\ast$ Sign\+Up\+::firstname}
+
+\mbox{\Hypertarget{classSignUp_a7ea82200786963e881c8b115c04175a0}\label{classSignUp_a7ea82200786963e881c8b115c04175a0}} 
+\index{Sign\+Up@{Sign\+Up}!firstnametxt@{firstnametxt}}
+\index{firstnametxt@{firstnametxt}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{firstnametxt}{firstnametxt}}
+{\footnotesize\ttfamily Q\+Line\+Edit$\ast$ Sign\+Up\+::firstnametxt}
+
+\mbox{\Hypertarget{classSignUp_a6da38bd0aaebade4679524fcda54b840}\label{classSignUp_a6da38bd0aaebade4679524fcda54b840}} 
+\index{Sign\+Up@{Sign\+Up}!fullname@{fullname}}
+\index{fullname@{fullname}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{fullname}{fullname}}
+{\footnotesize\ttfamily Q\+Line\+Edit$\ast$ Sign\+Up\+::fullname}
+
+\mbox{\Hypertarget{classSignUp_a6ab9ba662b07fce1947942ebca3eeeed}\label{classSignUp_a6ab9ba662b07fce1947942ebca3eeeed}} 
+\index{Sign\+Up@{Sign\+Up}!gender@{gender}}
+\index{gender@{gender}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{gender}{gender}}
+{\footnotesize\ttfamily Q\+Label$\ast$ Sign\+Up\+::gender}
+
+\mbox{\Hypertarget{classSignUp_a49c9d24e80103ea51677a94ba7100fa1}\label{classSignUp_a49c9d24e80103ea51677a94ba7100fa1}} 
+\index{Sign\+Up@{Sign\+Up}!grid1@{grid1}}
+\index{grid1@{grid1}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{grid1}{grid1}}
+{\footnotesize\ttfamily Q\+Grid\+Layout$\ast$ Sign\+Up\+::grid1}
+
+\mbox{\Hypertarget{classSignUp_a4cbbcbee8c5a0a3176de6d67efb02511}\label{classSignUp_a4cbbcbee8c5a0a3176de6d67efb02511}} 
+\index{Sign\+Up@{Sign\+Up}!group@{group}}
+\index{group@{group}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{group}{group}}
+{\footnotesize\ttfamily Q\+Group\+Box$\ast$ Sign\+Up\+::group}
+
+\mbox{\Hypertarget{classSignUp_aa01177e983a86a9be7a1f3894e418960}\label{classSignUp_aa01177e983a86a9be7a1f3894e418960}} 
+\index{Sign\+Up@{Sign\+Up}!lastname@{lastname}}
+\index{lastname@{lastname}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{lastname}{lastname}}
+{\footnotesize\ttfamily Q\+Label$\ast$ Sign\+Up\+::lastname}
+
+\mbox{\Hypertarget{classSignUp_a877d4c47b00e04a9cfb0092f45c0cd97}\label{classSignUp_a877d4c47b00e04a9cfb0092f45c0cd97}} 
+\index{Sign\+Up@{Sign\+Up}!lastnametxt@{lastnametxt}}
+\index{lastnametxt@{lastnametxt}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{lastnametxt}{lastnametxt}}
+{\footnotesize\ttfamily Q\+Line\+Edit$\ast$ Sign\+Up\+::lastnametxt}
+
+\mbox{\Hypertarget{classSignUp_a70170aac5db032656bca3001f711ea9f}\label{classSignUp_a70170aac5db032656bca3001f711ea9f}} 
+\index{Sign\+Up@{Sign\+Up}!male@{male}}
+\index{male@{male}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{male}{male}}
+{\footnotesize\ttfamily Q\+Radio\+Button$\ast$ Sign\+Up\+::male}
+
+\mbox{\Hypertarget{classSignUp_adf28599804795a4c204e83e60595a6bc}\label{classSignUp_adf28599804795a4c204e83e60595a6bc}} 
+\index{Sign\+Up@{Sign\+Up}!password@{password}}
+\index{password@{password}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{password}{password}}
+{\footnotesize\ttfamily Q\+Label$\ast$ Sign\+Up\+::password}
+
+\mbox{\Hypertarget{classSignUp_a0435d9f76f9d517e7fc25788ee2cd7d7}\label{classSignUp_a0435d9f76f9d517e7fc25788ee2cd7d7}} 
+\index{Sign\+Up@{Sign\+Up}!passwordtxt@{passwordtxt}}
+\index{passwordtxt@{passwordtxt}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{passwordtxt}{passwordtxt}}
+{\footnotesize\ttfamily Q\+Line\+Edit$\ast$ Sign\+Up\+::passwordtxt}
+
+\mbox{\Hypertarget{classSignUp_ad9798c6c90208bacac4a99355bf7cbf3}\label{classSignUp_ad9798c6c90208bacac4a99355bf7cbf3}} 
+\index{Sign\+Up@{Sign\+Up}!phonenumber@{phonenumber}}
+\index{phonenumber@{phonenumber}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{phonenumber}{phonenumber}}
+{\footnotesize\ttfamily Q\+Label$\ast$ Sign\+Up\+::phonenumber}
+
+\mbox{\Hypertarget{classSignUp_a6deaa5313982b37d4f4ce4d0e7636b2e}\label{classSignUp_a6deaa5313982b37d4f4ce4d0e7636b2e}} 
+\index{Sign\+Up@{Sign\+Up}!phonenumbertxt@{phonenumbertxt}}
+\index{phonenumbertxt@{phonenumbertxt}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{phonenumbertxt}{phonenumbertxt}}
+{\footnotesize\ttfamily Q\+Line\+Edit$\ast$ Sign\+Up\+::phonenumbertxt}
+
+\mbox{\Hypertarget{classSignUp_a765e63e4a135b5063f753d0a3e928a18}\label{classSignUp_a765e63e4a135b5063f753d0a3e928a18}} 
+\index{Sign\+Up@{Sign\+Up}!profilepicture@{profilepicture}}
+\index{profilepicture@{profilepicture}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{profilepicture}{profilepicture}}
+{\footnotesize\ttfamily Q\+Label$\ast$ Sign\+Up\+::profilepicture}
+
+\mbox{\Hypertarget{classSignUp_a4bcba614d25f1498bf75367ccf566bfa}\label{classSignUp_a4bcba614d25f1498bf75367ccf566bfa}} 
+\index{Sign\+Up@{Sign\+Up}!profilepicturebr@{profilepicturebr}}
+\index{profilepicturebr@{profilepicturebr}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{profilepicturebr}{profilepicturebr}}
+{\footnotesize\ttfamily Q\+Push\+Button$\ast$ Sign\+Up\+::profilepicturebr}
+
+\mbox{\Hypertarget{classSignUp_af94f0e768fbc875b92de3db057ac8a58}\label{classSignUp_af94f0e768fbc875b92de3db057ac8a58}} 
+\index{Sign\+Up@{Sign\+Up}!s1@{s1}}
+\index{s1@{s1}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{s1}{s1}}
+{\footnotesize\ttfamily Q\+String Sign\+Up\+::s1}
+
+\mbox{\Hypertarget{classSignUp_ac466869c89fe53445de505714c341837}\label{classSignUp_ac466869c89fe53445de505714c341837}} 
+\index{Sign\+Up@{Sign\+Up}!showpass@{showpass}}
+\index{showpass@{showpass}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{showpass}{showpass}}
+{\footnotesize\ttfamily Q\+Check\+Box$\ast$ Sign\+Up\+::showpass}
+
+\mbox{\Hypertarget{classSignUp_aa733427c622c970bb273768fe266cda6}\label{classSignUp_aa733427c622c970bb273768fe266cda6}} 
+\index{Sign\+Up@{Sign\+Up}!submit@{submit}}
+\index{submit@{submit}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{submit}{submit}}
+{\footnotesize\ttfamily Q\+Push\+Button$\ast$ Sign\+Up\+::submit}
+
+\mbox{\Hypertarget{classSignUp_a00167b330798998c3d6575de385ad652}\label{classSignUp_a00167b330798998c3d6575de385ad652}} 
+\index{Sign\+Up@{Sign\+Up}!username@{username}}
+\index{username@{username}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{username}{username}}
+{\footnotesize\ttfamily Q\+Label$\ast$ Sign\+Up\+::username}
+
+\mbox{\Hypertarget{classSignUp_aeb3e4f68bd046de6788617cd8326a69c}\label{classSignUp_aeb3e4f68bd046de6788617cd8326a69c}} 
+\index{Sign\+Up@{Sign\+Up}!usernametxt@{usernametxt}}
+\index{usernametxt@{usernametxt}!Sign\+Up@{Sign\+Up}}
+\subsubsection{\texorpdfstring{usernametxt}{usernametxt}}
+{\footnotesize\ttfamily Q\+Line\+Edit$\ast$ Sign\+Up\+::usernametxt}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project435\+L/\hyperlink{signup_8h}{signup.\+h}\item 
+Project435\+L/\hyperlink{signup_8cpp}{signup.\+cpp}\end{DoxyCompactItemize}

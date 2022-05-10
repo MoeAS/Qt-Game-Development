@@ -1,0 +1,277 @@
+\hypertarget{classSignin}{}\section{Signin Class Reference}
+\label{classSignin}\index{Signin@{Signin}}
+
+
+{\ttfamily \#include $<$signin.\+h$>$}
+
+
+
+Inheritance diagram for Signin\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=135pt]{classSignin__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Signin\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=135pt]{classSignin__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classSignin_a6c85b8b53a33ea42f467d7c09cf45388}{Signin} (Q\+Widget $\ast$parent=nullptr)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Label $\ast$ \hyperlink{classSignin_ab608f7654e8d2cb405b1739151f1c83f}{username}
+\item 
+Q\+Line\+Edit $\ast$ \hyperlink{classSignin_a3c5f17e8afe4ab6b7a4d153329902e0f}{usernametxt}
+\item 
+Q\+Label $\ast$ \hyperlink{classSignin_abbf298a5c5735f84c15986e8bf91a356}{password}
+\item 
+Q\+Line\+Edit $\ast$ \hyperlink{classSignin_aec2542a3f3cc21892e2b8c7f472d9886}{passwordtxt}
+\item 
+Q\+Push\+Button $\ast$ \hyperlink{classSignin_a2d789cd4c64d00ef543eb1c9d259b411}{signup}
+\item 
+Q\+Push\+Button $\ast$ \hyperlink{classSignin_a5a2511c325ac5f9e9e43d48e4bfcafdf}{guest}
+\item 
+Q\+Push\+Button $\ast$ \hyperlink{classSignin_a33a74d30ed8189998f289e476d1eebbc}{submit}
+\item 
+Q\+Grid\+Layout $\ast$ \hyperlink{classSignin_ac2de4c6e9e652cf0954702b847dadf5a}{grid1}
+\item 
+Q\+V\+Box\+Layout $\ast$ \hyperlink{classSignin_abc6d05488b0d134965c7dafbc049ac3b}{box}
+\end{DoxyCompactItemize}
+\subsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classSignin_af4276b4dc2cbbdba1f88746ad6d97dbd}{signuppage} ()
+\begin{DoxyCompactList}\small\item\em goes to the sign up page \end{DoxyCompactList}\item 
+void \hyperlink{classSignin_a0a6afd65a4526eec5cbc68e84ba35852}{signinvalidation} ()
+\begin{DoxyCompactList}\small\item\em checks whether the input credentials are correct or invalid \end{DoxyCompactList}\item 
+void \hyperlink{classSignin_afabfdc04cfc9589c8dabe9b649e41112}{playasguest} ()
+\begin{DoxyCompactList}\small\item\em user can play as a guest without signing up \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSignin_a6c85b8b53a33ea42f467d7c09cf45388}\label{classSignin_a6c85b8b53a33ea42f467d7c09cf45388}} 
+\index{Signin@{Signin}!Signin@{Signin}}
+\index{Signin@{Signin}!Signin@{Signin}}
+\subsubsection{\texorpdfstring{Signin()}{Signin()}}
+{\footnotesize\ttfamily Signin\+::\+Signin (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+\begin{quote}
+change the sign in background and text color \end{quote}
+
+
+\begin{quote}
+scales window to 400x200 \end{quote}
+
+
+\begin{quote}
+moves window to the center of the screen when opened \end{quote}
+
+
+initalizing all Q\+Labels, Q\+Line\+Edits, Q\+Radio\+Buttons, and Q\+Push\+Buttons to display on the screen
+
+\begin{quote}
+navigate to the sign up page \end{quote}
+
+
+\begin{quote}
+checks if the input credentials are correct \end{quote}
+
+
+\begin{quote}
+user can play as a guest if they don\textquotesingle{}t want to sign up \end{quote}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{classSignin_a6c85b8b53a33ea42f467d7c09cf45388_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classSignin_afabfdc04cfc9589c8dabe9b649e41112}\label{classSignin_afabfdc04cfc9589c8dabe9b649e41112}} 
+\index{Signin@{Signin}!playasguest@{playasguest}}
+\index{playasguest@{playasguest}!Signin@{Signin}}
+\subsubsection{\texorpdfstring{playasguest}{playasguest}}
+{\footnotesize\ttfamily void Signin\+::playasguest (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+user can play as a guest without signing up 
+
+its a function S\+L\+OT which is signaled by a press of a button when pressed the sign in page is closed and a profile page is opened
+
+\begin{DoxyAuthor}{Author}
+Mohamad Abou Salem 
+
+Hadi Al Karhani 
+\end{DoxyAuthor}
+\begin{quote}
+sign in instance is closed \end{quote}
+
+
+\begin{quote}
+profile instance is opened \end{quote}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=295pt]{classSignin_afabfdc04cfc9589c8dabe9b649e41112_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSignin_a0a6afd65a4526eec5cbc68e84ba35852}\label{classSignin_a0a6afd65a4526eec5cbc68e84ba35852}} 
+\index{Signin@{Signin}!signinvalidation@{signinvalidation}}
+\index{signinvalidation@{signinvalidation}!Signin@{Signin}}
+\subsubsection{\texorpdfstring{signinvalidation}{signinvalidation}}
+{\footnotesize\ttfamily void Signin\+::signinvalidation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+checks whether the input credentials are correct or invalid 
+
+its a function S\+L\+OT which is signaled by a press of a button when pressed the Database.\+txt file is checked if username and password match of the user input checks if all fields are filled and not empty
+
+\begin{DoxyAuthor}{Author}
+Mohamad Abou Salem 
+
+Hadi Al Karhani 
+\end{DoxyAuthor}
+\begin{quote}
+check username field if empty \end{quote}
+
+
+\begin{quote}
+check password field if empty \end{quote}
+
+
+\begin{quote}
+open text file \end{quote}
+
+
+\begin{quote}
+check if the username and password are correct \end{quote}
+
+
+\begin{quote}
+if correct sign in and go to the profile page \end{quote}
+
+
+\begin{quote}
+if incorrect, prompt the user with a message \end{quote}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{classSignin_a0a6afd65a4526eec5cbc68e84ba35852_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSignin_af4276b4dc2cbbdba1f88746ad6d97dbd}\label{classSignin_af4276b4dc2cbbdba1f88746ad6d97dbd}} 
+\index{Signin@{Signin}!signuppage@{signuppage}}
+\index{signuppage@{signuppage}!Signin@{Signin}}
+\subsubsection{\texorpdfstring{signuppage}{signuppage}}
+{\footnotesize\ttfamily void Signin\+::signuppage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+goes to the sign up page 
+
+its a function S\+L\+OT which is signaled by a press of a button when pressed the sign in page is closed and a sign up page is opened
+
+\begin{DoxyAuthor}{Author}
+Mohamad Abou Salem 
+
+Hadi Al Karhani 
+\end{DoxyAuthor}
+\begin{quote}
+close this instance of sign in page \end{quote}
+
+
+\begin{quote}
+open new instance of sign up page \end{quote}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{classSignin_af4276b4dc2cbbdba1f88746ad6d97dbd_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classSignin_abc6d05488b0d134965c7dafbc049ac3b}\label{classSignin_abc6d05488b0d134965c7dafbc049ac3b}} 
+\index{Signin@{Signin}!box@{box}}
+\index{box@{box}!Signin@{Signin}}
+\subsubsection{\texorpdfstring{box}{box}}
+{\footnotesize\ttfamily Q\+V\+Box\+Layout$\ast$ Signin\+::box}
+
+\mbox{\Hypertarget{classSignin_ac2de4c6e9e652cf0954702b847dadf5a}\label{classSignin_ac2de4c6e9e652cf0954702b847dadf5a}} 
+\index{Signin@{Signin}!grid1@{grid1}}
+\index{grid1@{grid1}!Signin@{Signin}}
+\subsubsection{\texorpdfstring{grid1}{grid1}}
+{\footnotesize\ttfamily Q\+Grid\+Layout$\ast$ Signin\+::grid1}
+
+\mbox{\Hypertarget{classSignin_a5a2511c325ac5f9e9e43d48e4bfcafdf}\label{classSignin_a5a2511c325ac5f9e9e43d48e4bfcafdf}} 
+\index{Signin@{Signin}!guest@{guest}}
+\index{guest@{guest}!Signin@{Signin}}
+\subsubsection{\texorpdfstring{guest}{guest}}
+{\footnotesize\ttfamily Q\+Push\+Button$\ast$ Signin\+::guest}
+
+\mbox{\Hypertarget{classSignin_abbf298a5c5735f84c15986e8bf91a356}\label{classSignin_abbf298a5c5735f84c15986e8bf91a356}} 
+\index{Signin@{Signin}!password@{password}}
+\index{password@{password}!Signin@{Signin}}
+\subsubsection{\texorpdfstring{password}{password}}
+{\footnotesize\ttfamily Q\+Label$\ast$ Signin\+::password}
+
+\mbox{\Hypertarget{classSignin_aec2542a3f3cc21892e2b8c7f472d9886}\label{classSignin_aec2542a3f3cc21892e2b8c7f472d9886}} 
+\index{Signin@{Signin}!passwordtxt@{passwordtxt}}
+\index{passwordtxt@{passwordtxt}!Signin@{Signin}}
+\subsubsection{\texorpdfstring{passwordtxt}{passwordtxt}}
+{\footnotesize\ttfamily Q\+Line\+Edit$\ast$ Signin\+::passwordtxt}
+
+\mbox{\Hypertarget{classSignin_a2d789cd4c64d00ef543eb1c9d259b411}\label{classSignin_a2d789cd4c64d00ef543eb1c9d259b411}} 
+\index{Signin@{Signin}!signup@{signup}}
+\index{signup@{signup}!Signin@{Signin}}
+\subsubsection{\texorpdfstring{signup}{signup}}
+{\footnotesize\ttfamily Q\+Push\+Button$\ast$ Signin\+::signup}
+
+\mbox{\Hypertarget{classSignin_a33a74d30ed8189998f289e476d1eebbc}\label{classSignin_a33a74d30ed8189998f289e476d1eebbc}} 
+\index{Signin@{Signin}!submit@{submit}}
+\index{submit@{submit}!Signin@{Signin}}
+\subsubsection{\texorpdfstring{submit}{submit}}
+{\footnotesize\ttfamily Q\+Push\+Button$\ast$ Signin\+::submit}
+
+\mbox{\Hypertarget{classSignin_ab608f7654e8d2cb405b1739151f1c83f}\label{classSignin_ab608f7654e8d2cb405b1739151f1c83f}} 
+\index{Signin@{Signin}!username@{username}}
+\index{username@{username}!Signin@{Signin}}
+\subsubsection{\texorpdfstring{username}{username}}
+{\footnotesize\ttfamily Q\+Label$\ast$ Signin\+::username}
+
+\mbox{\Hypertarget{classSignin_a3c5f17e8afe4ab6b7a4d153329902e0f}\label{classSignin_a3c5f17e8afe4ab6b7a4d153329902e0f}} 
+\index{Signin@{Signin}!usernametxt@{usernametxt}}
+\index{usernametxt@{usernametxt}!Signin@{Signin}}
+\subsubsection{\texorpdfstring{usernametxt}{usernametxt}}
+{\footnotesize\ttfamily Q\+Line\+Edit$\ast$ Signin\+::usernametxt}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project435\+L/\hyperlink{signin_8h}{signin.\+h}\item 
+Project435\+L/\hyperlink{signin_8cpp}{signin.\+cpp}\end{DoxyCompactItemize}

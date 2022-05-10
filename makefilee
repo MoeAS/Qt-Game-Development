@@ -1,0 +1,30 @@
+executablefile: $(CXXSOURCE) $(HEADERS)
+	$(CXX) $(CXXSOURCE) -o $(BIN_DIR)/$@
+CC = -c
+CXX = g++
+CFLAGS = -c -Wall
+CXXSOURCE = ${wildcard *.cpp}
+HEADERS = ${CXXSOURCE:.cpp=.h}
+OBJECTS = ${patsubst %.cpp, $(BIN_DIR)/%.o, $(BIN_DIR)/%.d, $(CXXSOURCE)}
+BIN_DIR = ./bin
+printM: ;echo $(CXXSOURCE);echo $(HEADERS);echo $(OBJECTS); echo $(DEPS)
+DEPS = ${OBJECTS:.o=.d}
+$(BIN_DIR)/%.d:%.cpp
+	$(CXX) -M $< > $@
+-include $(DEPS)
+CREATEOBJECT = $(OBJECTS)
+$(BIN_DIR)/%.o:%.cpp $(BIN_DIR)/%.d
+	cd $(BIN_DIR) && $(CXX) $(CC) ../$<
+-include $(CREATEOBJECT)
+.PHONY: clean
+clean:
+	rm -rf *.o *.exe *.d *.gch executablefile
+cleanbin:
+	cd $(BIN_DIR) && rm -rf *.o *.d executablefile
+run_doxy:
+	doxygen -g Doxy_config && doxygen Doxy_config
+pdflatex: run_doxy
+	cd latex && latex refman.tex ; \
+	pdflatex refman.tex
+run: executablefile
+	cd $(BIN_DIR) && ./executablefile

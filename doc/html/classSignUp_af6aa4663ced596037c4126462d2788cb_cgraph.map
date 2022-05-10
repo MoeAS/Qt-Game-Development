@@ -1,0 +1,5 @@
+<map id="SignUp::SignUp" name="SignUp::SignUp">
+<area shape="rect" id="node2" href="$classSignUp.html#a1539bfb27c3778d424ebeb4c50210e3d" title="goes back to the sign in page which is the main page " alt="" coords="177,5,292,32"/>
+<area shape="rect" id="node3" href="$classSignUp.html#aad0f6a54d93f8354e13db101189e2319" title="Submits the data provided from the user to sign up and checks if username is taken or not..." alt="" coords="169,56,300,83"/>
+<area shape="rect" id="node4" href="$classSignUp.html#ab35d78276292f7e585b78cb98a5c720a" title="browses the computer to insert a profile picture " alt="" coords="177,107,292,133"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="battleshipgame::shoot" name="battleshipgame::shoot">
+<area shape="rect" id="node2" href="$classbattleshipgame.html#a2bc96daab5fee23ae0a5718416d52bec" title="shoot by clicking one of the right grid squares " alt="" coords="204,5,344,32"/>
+<area shape="rect" id="node3" href="$classbattleshipgame.html#a498809fd1ed17350a8d7a459bbf734ae" title="player exits when game is done and scores are saved " alt="" coords="392,5,531,32"/>
+</map>

@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>profile.png</file>
+        <file>lebanon.png</file>
+        <file>belgium.png</file>
+        <file>ksa.png</file>
+        <file>usa.png</file>
+        <file>france.jpg</file>
+        <file>shipmenu.JPG</file>
+        <file>Database.txt</file>
+        <file>Questions.txt</file>
+        <file>hit.jpg</file>
+        <file>miss.png</file>
+        <file>sea.jpg</file>
+        <file>diskmenu.JPG</file>
+        <file>bluedisk.png</file>
+        <file>greendisk.png</file>
+        <file>reddisk.png</file>
+        <file>background.jpg</file>
+    </qresource>
+</RCC>

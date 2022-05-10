@@ -1,0 +1,431 @@
+\hypertarget{classprofile}{}\section{profile Class Reference}
+\label{classprofile}\index{profile@{profile}}
+
+
+{\ttfamily \#include $<$profile.\+h$>$}
+
+
+
+Inheritance diagram for profile\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=135pt]{classprofile__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for profile\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=135pt]{classprofile__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classprofile_a345e4de8245d251526e2e908deb323e0}{profile} (Q\+String \&username, Q\+Widget $\ast$parent=nullptr)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Label $\ast$ \hyperlink{classprofile_ad09122f8c52c906428277964d0ff6d6a}{fullname}
+\item 
+Q\+Label $\ast$ \hyperlink{classprofile_aa4c9275bf2e98a297e390990023acffa}{name}
+\item 
+Q\+Label $\ast$ \hyperlink{classprofile_af5988e8dfd27a05eb93292a508e737de}{currenttime}
+\item 
+Q\+Label $\ast$ \hyperlink{classprofile_ae89d85b7a03006454b09e702766d7428}{current}
+\item 
+Q\+Label $\ast$ \hyperlink{classprofile_af8ccb40023c00508256a01c54a1b1714}{countryname}
+\item 
+Q\+Label $\ast$ \hyperlink{classprofile_a92d0c4e4d12fbef61bf63384ad047744}{pp}
+\item 
+Q\+Label $\ast$ \hyperlink{classprofile_a115f987a1ad7836471de342faeb5177f}{flag}
+\item 
+Q\+String\+List \hyperlink{classprofile_a9ce924e0fad9e3dd191c4020a1db0230}{s}
+\item 
+Q\+String \hyperlink{classprofile_a321f742e7986c4ab494ac5c30206c1f1}{uname}
+\item 
+Q\+Push\+Button $\ast$ \hyperlink{classprofile_a3578ca08b26ba4390891fbbac1e93013}{back}
+\item 
+Q\+Push\+Button $\ast$ \hyperlink{classprofile_a6ba0dc6cc5e724759f97f4223c1e1b5d}{histor}
+\item 
+Q\+Push\+Button $\ast$ \hyperlink{classprofile_a0dbcc8440fbd05400bf0ea770aae045f}{histor2}
+\item 
+Q\+Push\+Button $\ast$ \hyperlink{classprofile_a77ad898c8cc12bc50a9ef0815bc696e1}{play}
+\item 
+Q\+Push\+Button $\ast$ \hyperlink{classprofile_adbad489bbd85e8a12240a891302d99ac}{play2}
+\item 
+Q\+Grid\+Layout $\ast$ \hyperlink{classprofile_ac5540bb2c77a760b73954011bc154df7}{grid1}
+\item 
+Q\+V\+Box\+Layout $\ast$ \hyperlink{classprofile_a70306eff274acb49387465476004582b}{box}
+\end{DoxyCompactItemize}
+\subsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classprofile_a0ba746f5f77f499dfc9ef25d0a6e88e2}{goback} ()
+\begin{DoxyCompactList}\small\item\em signs out and goes to the sign in page \end{DoxyCompactList}\item 
+void \hyperlink{classprofile_a6255c697ba58203b5d9834fea1329cb1}{playgame1} ()
+\begin{DoxyCompactList}\small\item\em enters game1 \end{DoxyCompactList}\item 
+void \hyperlink{classprofile_a89dd2d07162af36d2aeebc485b1e878c}{playgame2} ()
+\begin{DoxyCompactList}\small\item\em enters game2 \end{DoxyCompactList}\item 
+void \hyperlink{classprofile_a7b83e5727f3cc2e1fcfd8ff6883681d9}{gohistory} ()
+\begin{DoxyCompactList}\small\item\em enters game1 history page \end{DoxyCompactList}\item 
+void \hyperlink{classprofile_ae4957e01d43effcf134009d1e302d166}{gohistory2} ()
+\begin{DoxyCompactList}\small\item\em enters game2 history page \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprofile_a345e4de8245d251526e2e908deb323e0}\label{classprofile_a345e4de8245d251526e2e908deb323e0}} 
+\index{profile@{profile}!profile@{profile}}
+\index{profile@{profile}!profile@{profile}}
+\subsubsection{\texorpdfstring{profile()}{profile()}}
+{\footnotesize\ttfamily profile\+::profile (\begin{DoxyParamCaption}\item[{Q\+String \&}]{username,  }\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+\begin{quote}
+change the profile background and text color \end{quote}
+
+
+\begin{quote}
+scales window to 350x300 \end{quote}
+
+
+\begin{quote}
+moves window to the center of the screen when opened \end{quote}
+
+
+initalizing all Q\+Labels and Q\+Push\+Buttons to display on the screen
+
+\begin{quote}
+check username to display that user\textquotesingle{}s information \end{quote}
+
+
+\begin{quote}
+if user plays as guest, username would not be found \end{quote}
+
+
+\begin{quote}
+set default profile pic \end{quote}
+
+
+\begin{quote}
+set name as guest \end{quote}
+
+
+\begin{quote}
+set current date and time \end{quote}
+
+
+\begin{quote}
+set user\textquotesingle{}s country flag based on phone number \end{quote}
+
+
+\begin{quote}
+set user\textquotesingle{}s country flag based on phone number \end{quote}
+
+
+\begin{quote}
+set user\textquotesingle{}s country flag based on phone number \end{quote}
+
+
+\begin{quote}
+set user\textquotesingle{}s country flag based on phone number \end{quote}
+
+
+\begin{quote}
+set user\textquotesingle{}s country flag based on phone number \end{quote}
+
+
+\begin{quote}
+go back to sign in page by signing out \end{quote}
+
+
+\begin{quote}
+play game1, battleship game \end{quote}
+
+
+\begin{quote}
+play game2, shooting discs game \end{quote}
+
+
+\begin{quote}
+check game1 history \end{quote}
+
+
+\begin{quote}
+check game2 history \end{quote}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=287pt]{classprofile_a345e4de8245d251526e2e908deb323e0_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classprofile_a0ba746f5f77f499dfc9ef25d0a6e88e2}\label{classprofile_a0ba746f5f77f499dfc9ef25d0a6e88e2}} 
+\index{profile@{profile}!goback@{goback}}
+\index{goback@{goback}!profile@{profile}}
+\subsubsection{\texorpdfstring{goback}{goback}}
+{\footnotesize\ttfamily void profile\+::goback (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+signs out and goes to the sign in page 
+
+its a function S\+L\+OT which is signaled by a press of a button when pressed the user profile page is closed and a sign in page is opened
+
+\begin{DoxyAuthor}{Author}
+Mohamad Abou Salem 
+
+Hadi Al Karhani 
+\end{DoxyAuthor}
+\begin{quote}
+open this instance of sign in page \end{quote}
+
+
+\begin{quote}
+close this instance of profile page \end{quote}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=271pt]{classprofile_a0ba746f5f77f499dfc9ef25d0a6e88e2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classprofile_a7b83e5727f3cc2e1fcfd8ff6883681d9}\label{classprofile_a7b83e5727f3cc2e1fcfd8ff6883681d9}} 
+\index{profile@{profile}!gohistory@{gohistory}}
+\index{gohistory@{gohistory}!profile@{profile}}
+\subsubsection{\texorpdfstring{gohistory}{gohistory}}
+{\footnotesize\ttfamily void profile\+::gohistory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+enters game1 history page 
+
+its a function S\+L\+OT which is signaled by a press of a button when pressed the user profile page is closed and battleship game history page is opened
+
+\begin{DoxyAuthor}{Author}
+Mohamad Abou Salem 
+
+Hadi Al Karhani 
+\end{DoxyAuthor}
+\begin{quote}
+open this instance of battleship game history page \end{quote}
+
+
+\begin{quote}
+close this instance of profile page \end{quote}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{classprofile_a7b83e5727f3cc2e1fcfd8ff6883681d9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classprofile_ae4957e01d43effcf134009d1e302d166}\label{classprofile_ae4957e01d43effcf134009d1e302d166}} 
+\index{profile@{profile}!gohistory2@{gohistory2}}
+\index{gohistory2@{gohistory2}!profile@{profile}}
+\subsubsection{\texorpdfstring{gohistory2}{gohistory2}}
+{\footnotesize\ttfamily void profile\+::gohistory2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+enters game2 history page 
+
+its a function S\+L\+OT which is signaled by a press of a button when pressed the user profile page is closed and shooting discs game history page is opened
+
+\begin{DoxyAuthor}{Author}
+Mohamad Abou Salem 
+
+Hadi Al Karhani 
+\end{DoxyAuthor}
+\begin{quote}
+open this instance of shooting discs game history page \end{quote}
+
+
+\begin{quote}
+close this instance of profile page \end{quote}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{classprofile_ae4957e01d43effcf134009d1e302d166_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classprofile_a6255c697ba58203b5d9834fea1329cb1}\label{classprofile_a6255c697ba58203b5d9834fea1329cb1}} 
+\index{profile@{profile}!playgame1@{playgame1}}
+\index{playgame1@{playgame1}!profile@{profile}}
+\subsubsection{\texorpdfstring{playgame1}{playgame1}}
+{\footnotesize\ttfamily void profile\+::playgame1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+enters game1 
+
+its a function S\+L\+OT which is signaled by a press of a button when pressed the user profile page is closed and battleship game page is opened
+
+\begin{DoxyAuthor}{Author}
+Mohamad Abou Salem 
+
+Hadi Al Karhani 
+\end{DoxyAuthor}
+\begin{quote}
+open this instance of battleship game page \end{quote}
+
+
+\begin{quote}
+close this instance of profile page \end{quote}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=287pt]{classprofile_a6255c697ba58203b5d9834fea1329cb1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classprofile_a89dd2d07162af36d2aeebc485b1e878c}\label{classprofile_a89dd2d07162af36d2aeebc485b1e878c}} 
+\index{profile@{profile}!playgame2@{playgame2}}
+\index{playgame2@{playgame2}!profile@{profile}}
+\subsubsection{\texorpdfstring{playgame2}{playgame2}}
+{\footnotesize\ttfamily void profile\+::playgame2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+enters game2 
+
+its a function S\+L\+OT which is signaled by a press of a button when pressed the user profile page is closed and shooting discs game page is opened
+
+\begin{DoxyAuthor}{Author}
+Mohamad Abou Salem 
+
+Hadi Al Karhani 
+\end{DoxyAuthor}
+\begin{quote}
+open this instance of shooting discs game page \end{quote}
+
+
+\begin{quote}
+close this instance of profile page \end{quote}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=287pt]{classprofile_a89dd2d07162af36d2aeebc485b1e878c_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classprofile_a3578ca08b26ba4390891fbbac1e93013}\label{classprofile_a3578ca08b26ba4390891fbbac1e93013}} 
+\index{profile@{profile}!back@{back}}
+\index{back@{back}!profile@{profile}}
+\subsubsection{\texorpdfstring{back}{back}}
+{\footnotesize\ttfamily Q\+Push\+Button$\ast$ profile\+::back}
+
+\mbox{\Hypertarget{classprofile_a70306eff274acb49387465476004582b}\label{classprofile_a70306eff274acb49387465476004582b}} 
+\index{profile@{profile}!box@{box}}
+\index{box@{box}!profile@{profile}}
+\subsubsection{\texorpdfstring{box}{box}}
+{\footnotesize\ttfamily Q\+V\+Box\+Layout$\ast$ profile\+::box}
+
+\mbox{\Hypertarget{classprofile_af8ccb40023c00508256a01c54a1b1714}\label{classprofile_af8ccb40023c00508256a01c54a1b1714}} 
+\index{profile@{profile}!countryname@{countryname}}
+\index{countryname@{countryname}!profile@{profile}}
+\subsubsection{\texorpdfstring{countryname}{countryname}}
+{\footnotesize\ttfamily Q\+Label$\ast$ profile\+::countryname}
+
+\mbox{\Hypertarget{classprofile_ae89d85b7a03006454b09e702766d7428}\label{classprofile_ae89d85b7a03006454b09e702766d7428}} 
+\index{profile@{profile}!current@{current}}
+\index{current@{current}!profile@{profile}}
+\subsubsection{\texorpdfstring{current}{current}}
+{\footnotesize\ttfamily Q\+Label$\ast$ profile\+::current}
+
+\mbox{\Hypertarget{classprofile_af5988e8dfd27a05eb93292a508e737de}\label{classprofile_af5988e8dfd27a05eb93292a508e737de}} 
+\index{profile@{profile}!currenttime@{currenttime}}
+\index{currenttime@{currenttime}!profile@{profile}}
+\subsubsection{\texorpdfstring{currenttime}{currenttime}}
+{\footnotesize\ttfamily Q\+Label$\ast$ profile\+::currenttime}
+
+\mbox{\Hypertarget{classprofile_a115f987a1ad7836471de342faeb5177f}\label{classprofile_a115f987a1ad7836471de342faeb5177f}} 
+\index{profile@{profile}!flag@{flag}}
+\index{flag@{flag}!profile@{profile}}
+\subsubsection{\texorpdfstring{flag}{flag}}
+{\footnotesize\ttfamily Q\+Label$\ast$ profile\+::flag}
+
+\mbox{\Hypertarget{classprofile_ad09122f8c52c906428277964d0ff6d6a}\label{classprofile_ad09122f8c52c906428277964d0ff6d6a}} 
+\index{profile@{profile}!fullname@{fullname}}
+\index{fullname@{fullname}!profile@{profile}}
+\subsubsection{\texorpdfstring{fullname}{fullname}}
+{\footnotesize\ttfamily Q\+Label$\ast$ profile\+::fullname}
+
+\mbox{\Hypertarget{classprofile_ac5540bb2c77a760b73954011bc154df7}\label{classprofile_ac5540bb2c77a760b73954011bc154df7}} 
+\index{profile@{profile}!grid1@{grid1}}
+\index{grid1@{grid1}!profile@{profile}}
+\subsubsection{\texorpdfstring{grid1}{grid1}}
+{\footnotesize\ttfamily Q\+Grid\+Layout$\ast$ profile\+::grid1}
+
+\mbox{\Hypertarget{classprofile_a6ba0dc6cc5e724759f97f4223c1e1b5d}\label{classprofile_a6ba0dc6cc5e724759f97f4223c1e1b5d}} 
+\index{profile@{profile}!histor@{histor}}
+\index{histor@{histor}!profile@{profile}}
+\subsubsection{\texorpdfstring{histor}{histor}}
+{\footnotesize\ttfamily Q\+Push\+Button$\ast$ profile\+::histor}
+
+\mbox{\Hypertarget{classprofile_a0dbcc8440fbd05400bf0ea770aae045f}\label{classprofile_a0dbcc8440fbd05400bf0ea770aae045f}} 
+\index{profile@{profile}!histor2@{histor2}}
+\index{histor2@{histor2}!profile@{profile}}
+\subsubsection{\texorpdfstring{histor2}{histor2}}
+{\footnotesize\ttfamily Q\+Push\+Button$\ast$ profile\+::histor2}
+
+\mbox{\Hypertarget{classprofile_aa4c9275bf2e98a297e390990023acffa}\label{classprofile_aa4c9275bf2e98a297e390990023acffa}} 
+\index{profile@{profile}!name@{name}}
+\index{name@{name}!profile@{profile}}
+\subsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily Q\+Label$\ast$ profile\+::name}
+
+\mbox{\Hypertarget{classprofile_a77ad898c8cc12bc50a9ef0815bc696e1}\label{classprofile_a77ad898c8cc12bc50a9ef0815bc696e1}} 
+\index{profile@{profile}!play@{play}}
+\index{play@{play}!profile@{profile}}
+\subsubsection{\texorpdfstring{play}{play}}
+{\footnotesize\ttfamily Q\+Push\+Button$\ast$ profile\+::play}
+
+\mbox{\Hypertarget{classprofile_adbad489bbd85e8a12240a891302d99ac}\label{classprofile_adbad489bbd85e8a12240a891302d99ac}} 
+\index{profile@{profile}!play2@{play2}}
+\index{play2@{play2}!profile@{profile}}
+\subsubsection{\texorpdfstring{play2}{play2}}
+{\footnotesize\ttfamily Q\+Push\+Button$\ast$ profile\+::play2}
+
+\mbox{\Hypertarget{classprofile_a92d0c4e4d12fbef61bf63384ad047744}\label{classprofile_a92d0c4e4d12fbef61bf63384ad047744}} 
+\index{profile@{profile}!pp@{pp}}
+\index{pp@{pp}!profile@{profile}}
+\subsubsection{\texorpdfstring{pp}{pp}}
+{\footnotesize\ttfamily Q\+Label$\ast$ profile\+::pp}
+
+\mbox{\Hypertarget{classprofile_a9ce924e0fad9e3dd191c4020a1db0230}\label{classprofile_a9ce924e0fad9e3dd191c4020a1db0230}} 
+\index{profile@{profile}!s@{s}}
+\index{s@{s}!profile@{profile}}
+\subsubsection{\texorpdfstring{s}{s}}
+{\footnotesize\ttfamily Q\+String\+List profile\+::s}
+
+\mbox{\Hypertarget{classprofile_a321f742e7986c4ab494ac5c30206c1f1}\label{classprofile_a321f742e7986c4ab494ac5c30206c1f1}} 
+\index{profile@{profile}!uname@{uname}}
+\index{uname@{uname}!profile@{profile}}
+\subsubsection{\texorpdfstring{uname}{uname}}
+{\footnotesize\ttfamily Q\+String profile\+::uname}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project435\+L/\hyperlink{profile_8h}{profile.\+h}\item 
+Project435\+L/\hyperlink{profile_8cpp}{profile.\+cpp}\end{DoxyCompactItemize}

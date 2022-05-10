@@ -1,0 +1,35 @@
+<map id="battleshipgame::exit" name="battleshipgame::exit">
+<area shape="rect" id="node2" href="$classbattleshipgame.html#a47d39ce6859afe84cceedd678b9252d7" title="incorrect answers initialized to 0 " alt="" coords="607,443,813,469"/>
+<area shape="rect" id="node3" href="$classbattleshipgame.html#a2bc96daab5fee23ae0a5718416d52bec" title="shoot by clicking one of the right grid squares " alt="" coords="199,88,339,115"/>
+<area shape="rect" id="node5" href="$classbattleshipgame.html#a1f6ca1a66e975c0e9785278a2e6d92b9" title="battleshipgame::test2" alt="" coords="196,139,343,165"/>
+<area shape="rect" id="node7" href="$classbattleshipgame.html#a58028520908b9161db6158aa3478f00c" title="battleshipgame::test3" alt="" coords="196,189,343,216"/>
+<area shape="rect" id="node9" href="$classbattleshipgame.html#a9176cadc06e920eb0aba9679f49e96ca" title="battleshipgame::test4" alt="" coords="196,240,343,267"/>
+<area shape="rect" id="node11" href="$classbattleshipgame.html#a0119d4f5935bdd98a5a974a4aa8bd5d0" title="battleshipgame::test5" alt="" coords="196,291,343,317"/>
+<area shape="rect" id="node13" href="$classbattleshipgame.html#a15ad12d526ba36f2b951aca9005ec6f6" title="battleshipgame::test6" alt="" coords="196,341,343,368"/>
+<area shape="rect" id="node15" href="$classbattleshipgame.html#a04531484e5ac0cb61328e6a07f6bbe3b" title="battleshipgame::test7" alt="" coords="196,392,343,419"/>
+<area shape="rect" id="node17" href="$classbattleshipgame.html#ad30b973cdaa9a48bea832d28e9c66a23" title="battleshipgame::test8" alt="" coords="196,443,343,469"/>
+<area shape="rect" id="node19" href="$classbattleshipgame.html#adcb72d849316cf91db67e2d40cf9757e" title="battleshipgame::test9" alt="" coords="196,493,343,520"/>
+<area shape="rect" id="node21" href="$classbattleshipgame.html#a894f81d8d9368923b8b6c49f373a916d" title="battleshipgame::test10" alt="" coords="192,544,347,571"/>
+<area shape="rect" id="node23" href="$classbattleshipgame.html#ac984d3cc5f2c495315f0e40b3386a170" title="battleshipgame::test11" alt="" coords="192,595,347,621"/>
+<area shape="rect" id="node25" href="$classbattleshipgame.html#a801729b71aadc28bf27a2cdf9863a0f2" title="battleshipgame::test12" alt="" coords="192,645,347,672"/>
+<area shape="rect" id="node27" href="$classbattleshipgame.html#a2b71aca6916fc24986574cc5282cc6b1" title="battleshipgame::test13" alt="" coords="192,696,347,723"/>
+<area shape="rect" id="node29" href="$classbattleshipgame.html#a038c75b53a7aeb63718718ddb474d6f9" title="battleshipgame::test14" alt="" coords="192,747,347,773"/>
+<area shape="rect" id="node31" href="$classbattleshipgame.html#a7d5c9884fcb1d37853a7e25438fe3bf3" title="battleshipgame::test15" alt="" coords="192,797,347,824"/>
+<area shape="rect" id="node33" href="$classbattleshipgame.html#a24b68bab1498b0d2841ca1e2127d81c7" title="battleshipgame::test16" alt="" coords="192,848,347,875"/>
+<area shape="rect" id="node4" href="$classbattleshipgame.html#aa5a079217b1de092692515bc8fda0443" title="shoot by clicking one of the right grid squares " alt="" coords="401,88,552,115"/>
+<area shape="rect" id="node6" href="$classbattleshipgame.html#ab43d1b9348297ee4260ee31963efd49c" title="battleshipgame::shoot2" alt="" coords="398,139,555,165"/>
+<area shape="rect" id="node8" href="$classbattleshipgame.html#afce5fc9dedff42dd1fb8e43bd6dde974" title="battleshipgame::shoot3" alt="" coords="398,189,555,216"/>
+<area shape="rect" id="node10" href="$classbattleshipgame.html#aa660fbca945531186f483aed25c3f5d7" title="battleshipgame::shoot4" alt="" coords="398,240,555,267"/>
+<area shape="rect" id="node12" href="$classbattleshipgame.html#a31f1aecdbcbff314bb1c36fd0af2691a" title="battleshipgame::shoot5" alt="" coords="398,291,555,317"/>
+<area shape="rect" id="node14" href="$classbattleshipgame.html#a1af239789255b2d3c6b33789ccffae35" title="battleshipgame::shoot6" alt="" coords="398,341,555,368"/>
+<area shape="rect" id="node16" href="$classbattleshipgame.html#a56ca4e048cb8e5d66719ceca1b556d76" title="battleshipgame::shoot7" alt="" coords="398,392,555,419"/>
+<area shape="rect" id="node18" href="$classbattleshipgame.html#a54920293bf8c78680cab53c79958e609" title="battleshipgame::shoot8" alt="" coords="398,443,555,469"/>
+<area shape="rect" id="node20" href="$classbattleshipgame.html#adf78a189286f1bce1f6c291b4b7c72b4" title="battleshipgame::shoot9" alt="" coords="398,493,555,520"/>
+<area shape="rect" id="node22" href="$classbattleshipgame.html#a573cf39fd3700ffd3a79587437d66d37" title="battleshipgame::shoot10" alt="" coords="395,544,559,571"/>
+<area shape="rect" id="node24" href="$classbattleshipgame.html#abe53aab52ef793e5ca534fa53768ca49" title="battleshipgame::shoot11" alt="" coords="395,595,559,621"/>
+<area shape="rect" id="node26" href="$classbattleshipgame.html#a297eea8922b7e2b678d31396da8ba96e" title="battleshipgame::shoot12" alt="" coords="395,645,559,672"/>
+<area shape="rect" id="node28" href="$classbattleshipgame.html#a51fcb1716e0ad6cebc777c14a76c9f50" title="battleshipgame::shoot13" alt="" coords="395,696,559,723"/>
+<area shape="rect" id="node30" href="$classbattleshipgame.html#a2e1f24999099b5c301253a244d46c663" title="battleshipgame::shoot14" alt="" coords="395,747,559,773"/>
+<area shape="rect" id="node32" href="$classbattleshipgame.html#a3b024b5ad7c747303c00b740f0921751" title="battleshipgame::shoot15" alt="" coords="395,797,559,824"/>
+<area shape="rect" id="node34" href="$classbattleshipgame.html#a1dddc9c9d3ced3792fc33ec510976e8f" title="battleshipgame::shoot16" alt="" coords="395,848,559,875"/>
+</map>

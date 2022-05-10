@@ -1,0 +1,9 @@
+A software bug is an error, flaw, failure or fault in a computer that causes it to produce an incorrect or unexpected result or behave in unintended ways.|True
+Testing reveals the error and tells us where the problem is.|False
+Makefile includes rules for compiling and linking files into an executable by running actions.|True
+Testing is not important as it slows down the process, so we can ignore testing.|False
+Cpp Unit supports developers in doing unit testing of C++, Python, and Java programs.|False
+There are no C++ coding standards, each programmer can write using his/her own way during work.|False
+Valgrind is an open source system memory debuger.|True
+Valgrind can't identify memory leaks.|False
+You can only make a single makefile.|False

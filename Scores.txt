@@ -1,0 +1,24 @@
+|0correct & 0wrong|
+4wrong|
+4 correct & 4 wrong|
+1 correct & 4 wrong|
+moe|1correct & 4wrong|
+moe|1correct & 4wrong|
+|1correct & 4wrong|
+|1correct & 4wrong|
+|1correct & 4wrong|
+|1correct & 4wrong|
+|1correct & 4wrong|
+|1correct & 4wrong|
+|0correct & 0wrong|
+|0correct & 0wrong|
+|0correct & 0wrong|
+|0correct & 0wrong|
+|0correct & 0wrong|
+|0correct & 0wrong|
+|0correct & 0wrong|
+|0correct & 0wrong|
+|0correct & 0wrong|
+|0correct & 0wrong|
+|0correct & 0wrong|
+|0correct & 0wrong|

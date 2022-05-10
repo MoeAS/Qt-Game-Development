@@ -1,0 +1,5 @@
+<map id="Signin::Signin" name="Signin::Signin">
+<area shape="rect" id="node2" href="$classSignin.html#af4276b4dc2cbbdba1f88746ad6d97dbd" title="goes to the sign up page " alt="" coords="167,5,299,32"/>
+<area shape="rect" id="node3" href="$classSignin.html#a0a6afd65a4526eec5cbc68e84ba35852" title="checks whether the input credentials are correct or invalid " alt="" coords="156,56,311,83"/>
+<area shape="rect" id="node4" href="$classSignin.html#afabfdc04cfc9589c8dabe9b649e41112" title="user can play as a guest without signing up " alt="" coords="165,107,301,133"/>
+</map>
