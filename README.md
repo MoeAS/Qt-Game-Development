@@ -1,5 +1,7 @@
 # Qt-Game-Development
 
+Note: the project also includes a documentation using Doxygen
+
 # Game 1: Battleship Game
 
 ![image](https://user-images.githubusercontent.com/60234076/167738227-6a303a4f-d0db-413c-968a-8999c980d541.png)
